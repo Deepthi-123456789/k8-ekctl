@@ -1,7 +1,7 @@
 module "ec2_instance" {
   source  = "terraform-aws-modules/ec2-instance/aws"
 
-  name = "workstation for ekctl"
+  name = "workstation-ekctl"
   ami = "ami-0b4f379183e5706b9"
   instance_type          = "t2.micro"
   # key_name               = "user1"
